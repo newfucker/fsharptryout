@@ -6,7 +6,8 @@
         "vscode": {
             "extensions": [
                 "DavidAnson.vscode-markdownlint",
-                "Ionide.Ionide-fsharp"
+                "Ionide.Ionide-fsharp",
+                "ms-dotnettools.csdevkit"
             ]
         }
     }

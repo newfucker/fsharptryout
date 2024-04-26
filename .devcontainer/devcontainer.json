@@ -1,3 +1,15 @@
 {
-    "build": { "dockerfile": "Dockerfile" }
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "DavidAnson.vscode-markdownlint",
+                "eamodio.gitlens",
+                "Ionide.Ionide-fsharp"
+            ]
+        }
+    }
 }

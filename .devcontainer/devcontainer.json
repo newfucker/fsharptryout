@@ -10,5 +10,10 @@
                 "ms-dotnettools.csdevkit"
             ]
         }
+    },
+    "portsAttributes": {
+        "5000": {
+            "label": "web app"
+        }
     }
 }

@@ -5,5 +5,7 @@ open System
 let builder = WebApplication.CreateBuilder()
 let app = builder.Build()
 
-app.MapGet(pattern = "/", handler = Func<string>(fun () -> "Hello World!")) |> ignore
+app.MapGet(pattern = "/", handler = Func<string>(fun () -> "Hello World!"))
+|> ignore
+
 app.Run()

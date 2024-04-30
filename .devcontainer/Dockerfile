@@ -14,3 +14,4 @@ RUN git config --global --add safe.directory /workspaces/fsharptryout
 
 # Linter. See https://fsprojects.github.io/fantomas/docs/end-users/GettingStarted.html
 RUN dotnet tool install -g fantomas
+RUN dotnet tool install -g dotnet-fsharplint

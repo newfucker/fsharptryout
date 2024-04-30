@@ -11,3 +11,6 @@ RUN apt-get install -y dotnet-sdk-8.0
 RUN apt-get install -y curl htop
 
 RUN git config --global --add safe.directory /workspaces/fsharptryout
+
+# Linter. See https://fsprojects.github.io/fantomas/docs/end-users/GettingStarted.html
+RUN dotnet tool install -g fantomas

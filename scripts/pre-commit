@@ -1,0 +1,4 @@
+#!/bin/sh
+
+git diff --cached --name-only --diff-filter=ACM -z | xargs -0 $HOME/.dotnet/tools/fantomas
+git diff --cached --name-only --diff-filter=ACM -z | xargs -0 git add

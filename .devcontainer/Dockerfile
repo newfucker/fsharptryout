@@ -6,7 +6,7 @@ RUN apt-get upgrade -y
 RUN apt-get clean
 
 # install dev tools
-RUN apt-get install -y git-all
+RUN apt-get install -y git
 RUN apt-get install -y dotnet-sdk-8.0
 RUN apt-get install -y curl htop
 

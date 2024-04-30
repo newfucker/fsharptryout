@@ -15,5 +15,6 @@
         "5000": {
             "label": "web app"
         }
-    }
+    },
+    "postCreateCommand": "bash scripts/post-init.sh"
 }
